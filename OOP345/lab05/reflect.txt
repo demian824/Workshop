@@ -1,0 +1,12 @@
+/*
+	Student Name:	Wonchul Choi
+	Student Nubmer:	118362201
+	Student ID:	    wchoi28
+	Student e-mail: wchoi28@myseneca.ca
+	Course:         OOP345
+	Workshop:	    Week5
+*/
+	The functor is using the operator () to overload the function from the class. It is also function and it is called generator, unary function, or Binomial function. Comparing function pointer and functor, function pointer cannot be used with inline, but functor can be used with inline. However, code length of functor is more than function pointer. 
+	Lambda function was developed for the problem or inconvenience of functor and function pointer. It works declare and call the function in same time. Its expression is that [‘introducer’](‘parameter’)-> ‘return type’ {‘statement’}. At the introducer, function can use it as parameter, if user put the variable from outside in the square bracket. The compiler gets a parameter or parameters from the bracket. After the arrow sign ‘->’, user must write down return type and function statement inside curly bracket. If lambda function is declared with keyword auto, it can be inline.
+	If I do not use exception in SpellChecker, I will set the flag to check result with if statement and send the flag to client side. However, this way must set same option with constructor in all functions. But using exception does not need to set it and upper class or function knows the exception. Using exception is more efficiency than if statement in this case. 
+	Classes Movie and Book must need default constructor to set member variables initially before user uses the program. Also, classes Movie and Book has similar logic inside constructor. To me, I will make another header called ‘util’ and add the function of same logic. I will overload each constructor to get value.
