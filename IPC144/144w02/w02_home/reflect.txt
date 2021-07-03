@@ -1,0 +1,8 @@
+
+NOTE:'
+Following the lecture I leared about variable type and simple calcuation
+Also, I learned of comparison operators such as <, >, <=, >=, == 
+In simple Arithmetic: +, -, *, /, 
+Learned change variable type that put ('typename') in front value where you want to change the type
+The most important thing I think is address(&) operator in this lecture
+The reason is that variable saved as address and address has strong relation with 'Array' and 'Pointer'
