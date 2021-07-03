@@ -1,0 +1,21 @@
+/*
+	Student Name:	Wonchul Choi
+	Student Nubmer:	118362201
+	Student ID:	    wchoi28
+	Student e-mail: wchoi28@myseneca.ca
+	Course:         OOP244
+	Workshop: 	Week09
+*/
+	This week, I learned how to use template. The template is useful in C++. It shares the templated structure such as templated functions and templated classes. Template is flexible to assign variable’s types. Declaring the template is that writing the statement ‘template <typename T>’ before the function header and using ‘T’ as type of variable in the functions. The advantage of template is that programmer use the template function with any type of variables. Of course, it will save time to write codes. This is an example code. 
+template<typename T>  
+void compare(T& a, T& b){
+    if(a > b)
+       cout << a << “is bigger than” << b << endl;
+    else if(a < b)
+       cout << b << “is bigger than” << a << endl;
+    else if(a == b)
+       cout << a << “is equal” << b << endl;
+    else
+       cout << “No result” << endl;
+}
+	In addition, class can be templatized. The data type is required to declare a templatized class. It is a declare form: ‘templatized class name’<data type> ‘instance name’. Template bodies of functions cannot put other cpp files without explicit instantiation because the other cpp file do not know what types of variables use in the function to. For this reason, some libraries using template functions or classes only have header files. 
