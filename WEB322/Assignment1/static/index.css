@@ -1,0 +1,416 @@
+/************************************************************************************
+* WEB322 – Assignment 1 (Winter 2021)
+* I declare that this assignment is my own work in accordance with Seneca Academic
+* Policy. No part of this assignment has been copied manually or electronically from
+* any other source (including web sites) or distributed to other students.
+*
+* Name:         Wonchul Choi
+* Student ID:   118362201
+* Course:       Web322 NDD
+*
+************************************************************************************/
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    color: #444444;
+    
+}
+.clear{
+    clear:both;
+}
+li{
+    list-style: none;
+}
+header{
+    height: 230px;
+    
+}
+/*For Top log*/
+#top{
+    height: 75px;
+    background-color: #eae1d8;
+}
+.box{
+    width: 1320px;
+    margin: 0 auto;
+}
+#top_logo{
+    float: left;
+}
+#top_logo img{
+    width: 50px;
+    margin: 6px 0 0 10px;
+}
+#top_ad{
+    float: left;
+    margin: 24px 0 0 10px;
+    font-size: 12px;
+}
+#search{
+    float: right;
+   
+}
+#registerMenu li{
+    float: right;
+    display: inline;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+}
+#registerMenu button{
+    background-color: lemonchiffon;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+
+}
+
+#logo img{
+   float: left;
+   width: 100px;
+   margin: 30px 0 0 450px;
+}
+#brandName{
+    float: left;
+    margin: 45px 0 0 10px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*For Navigation bar*/
+#main_menu{
+    display: inline;
+    border-top: solid 1px #e2e2e2;
+    border-bottom: solid 1px #e2e2e2;
+    padding: 25px 20px;   
+}
+#menuList ul{
+    background-color: #eae1d8;
+}
+#menuList li{
+    display: inline;
+    background-color: #eae1d8;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+
+section{
+    height: 400px;
+}
+.vplayer{
+    outline: none;
+    border: none;
+}
+#hero{
+    width: 1320px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+#hero h3 {
+    float:left;
+    margin-left: 350px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#hero video {
+    margin-left: 350px;
+}
+/*For Product*/
+#content_box{
+    width: 1320px;
+    height: 350px;
+    margin: 0 auto;
+    padding-top:50px;
+}
+
+#content_box h3 {
+    float:left;
+    margin-left: 590px;
+}
+.intro{
+    width: 300px;
+    float:left;
+    margin: 50px 0px 50px 230px;
+}
+.intro img{
+    margin-top: 30px;
+}
+
+.intro .introDesc{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 130%;
+}
+.processItem{
+    width: 300px;
+    height: 300px; 
+    border-radius: 70%;
+    overflow: hidden;
+    float:left;
+    margin: 50px 0 0 100px;
+}
+.process{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*Product*/
+.items{
+    width: 300px;
+    float:left;
+    margin: 50px 0 50px 100px;
+}
+
+.items .prodName{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+.items .prodPrice{
+    font-weight: bold;
+    color: black;
+    margin-top: 8px;
+    
+}
+.items .prodDesc{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 130%;
+}
+.items .prodRank{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 25px;    
+}
+.items .prodRank span{
+   color : #a26f59;    
+}
+
+/*For Log in*/
+.login_input_section{
+    padding-top:   60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.login_input_section h3{
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login_input_id{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin: 50px 0 0 450px;
+}
+.login_input_id input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.login_input_password{
+    margin-top: 13px;
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-left: 450px;
+}
+.login_input_password input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.login_button{
+    padding-top: 13px;
+    margin-left: 450px;
+}
+
+.login_button button{
+    width: 465px;
+	height :48px;
+	font-size: 18px;
+	background:  #eae1d8;
+	color: white;
+	border: solid 1px  #eae1d8;
+}
+/*For register*/
+.signup_input_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.signup_input_section p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signup_input_section::placeholder{
+    text-align: center;
+}
+#regField{
+    border: none;
+}
+.fname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.fname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.lname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.lname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.uname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.uname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.email{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.email input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.bday_year{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.bday_year input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.bday_month{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.bday_month input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.bday_day{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.bday_day input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.signupbtn{
+    width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	height:30px;
+}
+.signupbtn button{
+    width: 465px;
+	height :48px;
+	font-size: 18px;
+	background:  #eae1d8;
+	color: white;
+	border: solid 1px  #eae1d8;
+}
+/*For footer*/
+footer{
+    height: 300px;
+    border: solid 1px #eeeeee;
+    margin-top: 400px;
+    background-color: #eae1d8;
+}
+
+
+#footer_menu{
+    padding-top: 30px;
+}
+#footer_menu li{
+    display: inline;
+    margin-left:20px;
+}
+.footers{
+    float: left;
+    margin: 30px 0 0 50px;
+}
+.footers li{
+    margin-top: 8px;
+    font-size: 12px;
+}
+.footers span{
+    font-weight: bold;
+}
