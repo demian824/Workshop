@@ -1,0 +1,110 @@
+/*For register*/
+.signup_input_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.signup_input_section p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signup_input_section::placeholder{
+    text-align: center;
+}
+#regField{
+    border: none;
+}
+.fname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 100px;
+}
+.fname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.lname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 50px;
+}
+.lname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.uname{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 20px;
+}
+.uname input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.pwd{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 50px;
+}
+.pwd input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.email{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 50px;
+}
+.email input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+#warning{
+    margin-top: 0.1px;
+}
+.signupbtn{
+    width:430px;
+	margin-top: 50px;
+	font-size: 14px;
+	height:30px;
+}
+.signupbtn button{
+    width: 465px;
+	height :48px;
+	font-size: 18px;
+	background:  #eae1d8;
+	color: white;
+	border: solid 1px  #eae1d8;
+}

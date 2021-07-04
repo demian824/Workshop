@@ -1,0 +1,67 @@
+/*For Top log*/
+#top{
+    height: 75px;
+    background-color: #FFE3EE;
+}
+.box{
+    width: 1320px;
+    margin: 0 auto;
+}
+#top_logo{
+    float: left;
+}
+#top_logo img{
+    width: 50px;
+    margin: 6px 0 0 10px;
+}
+#top_ad{
+    float: left;
+    margin: 24px 0 0 10px;
+    font-size: 12px;
+}
+#search{
+    float: right;
+   
+}
+#registerMenu li{
+    float: right;
+    display: inline;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+}
+#registerMenu button{
+    background:#FFBEC3;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+  #registerMenu button:hover{
+    background:#fff;
+    color:#FFBEC3;
+  }
+  #registerMenu button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #FFBEC3;
+    transition:400ms ease all;
+  }
+  #registerMenu button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  #registerMenu button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
