@@ -1,0 +1,33 @@
+/*For footer*/
+footer{
+    height: 300px;
+    border: solid 1px #eeeeee;
+    margin-top: 400px;
+    background-color: #FFE3EE;
+}
+#footer_menu{
+    padding-top: 30px;
+    margin-top: auto;
+}
+#footer_menu li{
+    display: inline;
+    margin-left:20px;
+}
+.footers{
+    float: left;
+    margin: 30px 0 0 50px;
+}
+.footers li{
+    margin-top: 8px;
+    font-size: 15px;
+}
+.footers span{
+    font-weight: bold;
+}
+
+.menuFooter{
+    height: 300px;
+    border: solid 1px #eeeeee;
+    margin-top: 100%;
+    background-color: #FFE3EE;
+}

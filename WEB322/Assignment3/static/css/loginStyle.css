@@ -1,0 +1,57 @@
+/*For Log in*/
+.login_input_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.login_input_section p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login_input_id{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 100px;
+}
+.login_input_id input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.login_input_password{
+    width: 465px;
+    height: 48px;
+    border: solid 1px #444444;
+    background: white;
+    margin-top: 50px;
+}
+.login_input_password input{
+    border: none;
+	width:430px;
+	margin-top: 10px;
+	font-size: 14px;
+	margin-left: 10px;
+	height:30px;
+}
+.login_button{
+    width:465px;
+	margin-top: 50px;
+	font-size: 14px;    
+	height:30px;
+}
+
+.login_button button{
+    width: 465px;
+	height :48px;
+	font-size: 18px;
+	background:  #eae1d8;
+	color: white;
+	border: solid 1px  #eae1d8;
+}
