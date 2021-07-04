@@ -1,0 +1,73 @@
+/*Product*/
+.topitems{
+    width: 250px;
+    float:left;
+    margin: 50px 0 50px 100px;
+  
+}
+
+.topitems .prodName{
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+.topitems .prodPrice{
+    font-weight: bold;
+    color: black;
+    margin-top: 4px;
+    
+}
+.topitems .prodDesc{
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 130%;
+}
+.topitems .prodRank{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 15px;    
+}
+.topitems .prodRank span{
+   color : #a26f59;    
+}
+
+.banner{
+    width: 300px;
+    margin: 50px 0 50px 0px;
+}
+
+/*Nomal menu*/
+.items{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.items .prodName{
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+.items .prodPrice{
+    font-weight: bold;
+    color: black;
+    margin-top: 8px;
+    
+}
+.items .prodDesc{
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 130%;
+}
+.items .prodRank{
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 25px;    
+}
+
+.admin_menu{
+    margin-top: 200px;
+}
+
+.remove_page{
+    margin-top: 100px;
+}
